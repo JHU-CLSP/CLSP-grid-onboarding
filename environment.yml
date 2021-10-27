@@ -1,0 +1,19 @@
+name: onboarding
+channels:
+    - conda-forge
+    - anaconda
+dependencies:
+    - python=3.8
+    - matplotlib
+    - seaborn
+    - pandas
+    - numpy
+    - scikit-learn
+    - nltk
+    - regex
+    - notebook
+    - pip
+    - pip:
+        - plotly
+        - jsonlines
+        - git+git://github.com/AADeLucia/littlebird.git#egg=littlebird
